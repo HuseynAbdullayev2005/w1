@@ -1,0 +1,524 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1 32px;
+}
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  color: white;
+  background-color: black;
+}
+
+.container_navbar {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  gap: 10px;
+}
+
+
+
+
+.line2 {
+  margin: 10px;
+  height: 5px;
+  width: 70px;
+  background-color: rgb(37, 37, 36);
+}
+
+.line {
+  margin: 10px;
+  height: 5px;
+  width: 70px;
+  background-color: antiquewhite;
+}
+
+.star {
+  display: flex;
+}
+
+
+
+.container_list {
+  display: flex;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.container_picture {
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#picture {
+
+  margin-bottom: 10px;
+  color: white;
+  min-height: 600px;
+  background-color: green;
+}
+
+
+
+.container_all {
+  min-height: 100px;
+  font-size: 30px;
+
+
+
+
+}
+
+.card_text {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container_card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: calc(33.333% - 30px);
+  min-height: 150px;
+  border: 1px solid black;
+
+}
+
+
+.menu {
+  display: none;
+}
+
+
+#about {
+margin-top: 20px;
+  min-height: 300px;
+  color: white;
+  background-color: rgb(30, 192, 157);
+}
+
+#duyme {
+  border: 2px solid white;
+  border-radius: 10%;
+  margin-top: 30px;
+  height: 50px;
+  width: 250px;
+color: white;
+background-color: rgb(30, 192, 157)
+}
+
+#duyme:hover {
+  color: black;
+  background-color: rgb(254, 254, 255);
+}
+
+.contact_heading{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.about_heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.about_button__download {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.about_text {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.about_text_left{
+  max-width: 300px;
+}
+.about_text_right{
+  max-width: 300px;
+}
+
+
+#contact{
+  margin-top: 20px;
+  min-height: 600px;
+}
+.contact_heading{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.contact_information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 50px;
+}
+.contact_information_button{
+ 
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 40px;
+  width: 65%;
+  height: 75px;
+}
+.contact_button{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  height: 100%;
+}
+.contact_button_send{
+  color: white;
+  background-color: rgb(82, 82, 240);
+  border-radius: 20%;
+  height: 50px;
+  width: 80px;
+}
+
+#foot{
+  background-color: rgb(14, 14, 141);
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#additional{
+  min-height: 300px;
+  margin-top: 30px;
+  color: white;
+  background-color: blue;
+  
+}
+
+.additional_information{
+
+  display: flex;
+  justify-content: space-evenly;
+ padding-top: 50px;
+ gap: 20px;
+}
+.additional_information_location{
+  width: 50%;
+}
+.additional_information_platforms{
+  width: 50%;
+}
+.additional_information_about{
+  width: 50%;
+}
+.additional_icons{
+  font-size: 40px;
+}
+#foot{
+  background-color: rgb(14, 14, 141);
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_text{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1 32px;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    color: white;
+    background-color: black;
+  }
+  
+  .container_navbar {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul {
+    list-style-type: none;
+    gap: 10px;
+  }
+  
+  
+  
+  
+  .line2 {
+    margin: 10px;
+    height: 5px;
+    width: 70px;
+    background-color: rgb(37, 37, 36);
+  }
+  
+  .line {
+    margin: 10px;
+    height: 5px;
+    width: 70px;
+    background-color: antiquewhite;
+  }
+  
+  .star {
+    display: flex;
+  }
+  
+  
+  
+  .container_list {
+    display: none;
+  }
+  
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  .container_picture {
+    gap: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #picture {
+  
+    margin-bottom: 10px;
+    color: white;
+    min-height: 600px;
+    background-color: green;
+  }
+  
+  
+  
+  .container_all {
+    min-height: 100px;
+    font-size: 30px;
+  
+  
+  
+  
+  }
+  
+  .card_text {
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container_card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .card {
+    width: calc(33.333% - 30px);
+    min-height: 150px;
+    border: 1px solid black;
+  
+  }
+  
+  
+  .menu {
+    display: block;
+  }
+  
+  
+  #about {
+  margin-top: 20px;
+    min-height: 300px;
+    color: white;
+    background-color: rgb(30, 192, 157);
+  }
+  
+  #duyme {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin-top: 30px;
+    height: 50px;
+    width: 250px;
+  color: white;
+  background-color: rgb(30, 192, 157)
+  }
+  
+  #duyme:hover {
+    color: black;
+    background-color: rgb(254, 254, 255);
+  }
+  
+  .contact_heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+  }
+  
+  .about_heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+  }
+  
+  .about_button__download {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about_text {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .about_text_left{
+    max-width: 300px;
+  }
+  .about_text_right{
+    max-width: 300px;
+  }
+  
+  
+  #contact{
+    margin-top: 20px;
+    min-height: 600px;
+  }
+  .contact_heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+  }
+  
+  .contact_information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+  }
+  .contact_information_button{
+   
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 40px;
+    width: 65%;
+    height: 75px;
+  }
+  .contact_button{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    height: 100%;
+  }
+  .contact_button_send{
+    color: white;
+    background-color: rgb(82, 82, 240);
+    border-radius: 20%;
+    height: 50px;
+    width: 80px;
+  }
+  
+  #foot{
+    background-color: rgb(14, 14, 141);
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #additional{
+    min-height: 300px;
+    margin-top: 30px;
+    color: white;
+    background-color: blue;
+    
+  }
+  
+  .additional_information{
+  
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 50px;
+   gap: 20px;
+  }
+  .additional_information_location{
+    width: 50%;
+  }
+  .additional_information_platforms{
+    width: 50%;
+  }
+  .additional_information_about{
+    width: 50%;
+  }
+  .additional_icons{
+    font-size: 40px;
+  }
+  #foot{
+    background-color: rgb(14, 14, 141);
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_text{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+  }}
